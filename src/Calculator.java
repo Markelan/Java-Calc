@@ -1,8 +1,13 @@
+
+import ops.*;
+
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ComponentAdapter;
 import java.awt.event.ComponentEvent;
+import java.util.HashMap;
 
 public class Calculator {
     private JPanel Calculator;
@@ -29,7 +34,8 @@ public class Calculator {
     private JButton button20;
 
     double a, b, result;
-    String op;
+    Operator op;
+    Operator[] ops = {Add.get(), Subtract.get(), Multiply.get(), Subtract.get()};
 
 
     public Calculator() {
@@ -134,7 +140,7 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e) {
                 a = Double.parseDouble(txtDisplay.getText());
-                op = "+";
+                op = Add.get();
                 txtDisplay.setText("");
             }
         });
@@ -142,7 +148,7 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e) {
                 a = Double.parseDouble(txtDisplay.getText());
-                op = "-";
+                op = Subtract.get();
                 txtDisplay.setText("");
             }
         });
@@ -150,7 +156,7 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e) {
                 a = Double.parseDouble(txtDisplay.getText());
-                op = "*";
+                op = Multiply.get();
                 txtDisplay.setText("");
             }
         });
@@ -158,7 +164,7 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e) {
                 a = Double.parseDouble(txtDisplay.getText());
-                op = "/";
+                op = Divide.get();
                 txtDisplay.setText("");
             }
         });
@@ -179,20 +185,8 @@ public class Calculator {
             @Override
             public void actionPerformed(ActionEvent e) {
                 b = Double.parseDouble(txtDisplay.getText());
-
-                if (op == "+") {
-                    result = a+b;
+                    result = op.getResult(a, b);
                     txtDisplay.setText(String.valueOf(result));
-                } else if (op == "-") {
-                    result = a-b;
-                    txtDisplay.setText(String.valueOf(result));
-                } else if (op == "*") {
-                    result = a*b;
-                    txtDisplay.setText(String.valueOf(result));
-                } else if (op == "/") {
-                    result = a/b;
-                    txtDisplay.setText(String.valueOf(result));
-                }
             }
         });
     }
@@ -201,6 +195,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Calculator");
+        frame.setLocationRelativeTo(null);
         frame.setContentPane(new Calculator().Calculator);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();

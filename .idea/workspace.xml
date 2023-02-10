@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94fec89a-38fc-48eb-858c-2da0ee3aee3d" name="Changes" comment="" />
+    <list default="true" id="94fec89a-38fc-48eb-858c-2da0ee3aee3d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ops/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ops/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ops/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ops/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ops/Subtract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +55,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -24,7 +67,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LW7rcj8sG36fOWhYNypy0hWA5z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,5 +139,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Java_Calc$Calculator.ic" NAME="Calculator Coverage Results" MODIFIED="1676064968954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
