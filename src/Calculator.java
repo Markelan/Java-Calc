@@ -29,7 +29,7 @@ public class Calculator {
     double a, b, result;
     Operator op;
 
-
+    // pediki
     public Calculator() {
         ACButton.addActionListener(e -> txtDisplay.setText(""));
 
