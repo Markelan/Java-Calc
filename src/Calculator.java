@@ -1,13 +1,6 @@
-
 import ops.*;
 
-
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.ComponentAdapter;
-import java.awt.event.ComponentEvent;
-import java.util.HashMap;
 
 public class Calculator {
     private JPanel Calculator;
@@ -38,155 +31,70 @@ public class Calculator {
 
 
     public Calculator() {
-        ACButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                txtDisplay.setText("");
-            }
-        });
+        ACButton.addActionListener(e -> txtDisplay.setText(""));
 
-        a7Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                txtDisplay.setText(txtDisplay.getText() + a7Button.getText());
+        a7Button.addActionListener(e -> txtDisplay.setText(txtDisplay.getText() + a7Button.getText()));
+        a8Button.addActionListener(e -> txtDisplay.setText(txtDisplay.getText() + a8Button.getText()));
+        a9Button.addActionListener(e -> txtDisplay.setText(txtDisplay.getText() + a9Button.getText()));
+        a4Button.addActionListener(e -> txtDisplay.setText(txtDisplay.getText() + a4Button.getText()));
+        a5Button.addActionListener(e -> txtDisplay.setText(txtDisplay.getText() + a5Button.getText()));
+        a6Button.addActionListener(e -> txtDisplay.setText(txtDisplay.getText() + a6Button.getText()));
+        a1Button.addActionListener(e -> txtDisplay.setText(txtDisplay.getText() + a1Button.getText()));
+        a2Button.addActionListener(e -> txtDisplay.setText(txtDisplay.getText() + a2Button.getText()));
+        a3Button.addActionListener(e -> txtDisplay.setText(txtDisplay.getText() + a3Button.getText()));
+        a0Button.addActionListener(e -> txtDisplay.setText(txtDisplay.getText() + a0Button.getText()));
+        a00Button.addActionListener(e -> txtDisplay.setText(txtDisplay.getText() + a00Button.getText()));
+        button16.addActionListener(e -> {
+            if (txtDisplay.getText().contains(".")) {
+                double pm = Double.parseDouble(txtDisplay.getText());
+                pm = pm * -1;
+                txtDisplay.setText(String.valueOf(pm));
+            }
+            else {
+                long PM = Long.parseLong(txtDisplay.getText());
+                PM = PM * -1;
+                txtDisplay.setText(String.valueOf(PM));
             }
         });
-        a8Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                txtDisplay.setText(txtDisplay.getText() + a8Button.getText());
+        button20.addActionListener(e -> {
+            if (!txtDisplay.getText().contains(".")) {
+                txtDisplay.setText(txtDisplay.getText() + button20.getText());
             }
         });
-        a9Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                txtDisplay.setText(txtDisplay.getText() + a9Button.getText());
-            }
+        button11.addActionListener(e -> {
+            a = Double.parseDouble(txtDisplay.getText());
+            op = Add.get();
+            txtDisplay.setText("");
         });
+        button2.addActionListener(e -> {
+            a = Double.parseDouble(txtDisplay.getText());
+            op = Subtract.get();
+            txtDisplay.setText("");
+        });
+        button3.addActionListener(e -> {
+            a = Double.parseDouble(txtDisplay.getText());
+            op = Multiply.get();
+            txtDisplay.setText("");
+        });
+        button4.addActionListener(e -> {
+            a = Double.parseDouble(txtDisplay.getText());
+            op = Divide.get();
+            txtDisplay.setText("");
+        });
+        button6.addActionListener(e -> {
+            String backspace;
 
-        a4Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                txtDisplay.setText(txtDisplay.getText() + a4Button.getText());
+            if (txtDisplay.getText().length() > 0) {
+                StringBuilder strB = new StringBuilder(txtDisplay.getText());
+                strB.deleteCharAt(txtDisplay.getText().length() - 1);
+                backspace = String.valueOf(strB);
+                txtDisplay.setText(backspace);
             }
         });
-        a5Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                txtDisplay.setText(txtDisplay.getText() + a5Button.getText());
-            }
-        });
-        a6Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                txtDisplay.setText(txtDisplay.getText() + a6Button.getText());
-            }
-        });
-        a1Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                txtDisplay.setText(txtDisplay.getText() + a1Button.getText());
-            }
-        });
-        a2Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                txtDisplay.setText(txtDisplay.getText() + a2Button.getText());
-            }
-        });
-        a3Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                txtDisplay.setText(txtDisplay.getText() + a3Button.getText());
-            }
-        });
-        a0Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                txtDisplay.setText(txtDisplay.getText() + a0Button.getText());
-            }
-        });
-        a00Button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                txtDisplay.setText(txtDisplay.getText() + a00Button.getText());
-            }
-        });
-        button16.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (txtDisplay.getText().contains(".")) {
-                    double pm = Double.parseDouble(txtDisplay.getText());
-                    pm = pm * -1;
-                    txtDisplay.setText(String.valueOf(pm));
-                }
-                else {
-                    long PM = Long.parseLong(txtDisplay.getText());
-                    PM = PM * -1;
-                    txtDisplay.setText(String.valueOf(PM));
-                }
-            }
-        });
-        button20.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (!txtDisplay.getText().contains(".")) {
-                    txtDisplay.setText(txtDisplay.getText() + button20.getText());
-                }
-            }
-        });
-        button11.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                a = Double.parseDouble(txtDisplay.getText());
-                op = Add.get();
-                txtDisplay.setText("");
-            }
-        });
-        button2.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                a = Double.parseDouble(txtDisplay.getText());
-                op = Subtract.get();
-                txtDisplay.setText("");
-            }
-        });
-        button3.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                a = Double.parseDouble(txtDisplay.getText());
-                op = Multiply.get();
-                txtDisplay.setText("");
-            }
-        });
-        button4.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                a = Double.parseDouble(txtDisplay.getText());
-                op = Divide.get();
-                txtDisplay.setText("");
-            }
-        });
-        button6.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String backspace = null;
-
-                if (txtDisplay.getText().length() > 0) {
-                    StringBuilder strB = new StringBuilder(txtDisplay.getText());
-                    strB.deleteCharAt(txtDisplay.getText().length() - 1);
-                    backspace = String.valueOf(strB);
-                    txtDisplay.setText(backspace);
-                }
-            }
-        });
-        button5.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                b = Double.parseDouble(txtDisplay.getText());
-                    result = op.getResult(a, b);
-                    txtDisplay.setText(String.valueOf(result));
-            }
+        button5.addActionListener(e -> {
+            b = Double.parseDouble(txtDisplay.getText());
+                result = op.getResult(a, b);
+                txtDisplay.setText(String.valueOf(result));
         });
     }
 
