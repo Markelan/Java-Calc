@@ -35,7 +35,6 @@ public class Calculator {
 
     double a, b, result;
     Operator op;
-    Operator[] ops = {Add.get(), Subtract.get(), Multiply.get(), Subtract.get()};
 
 
     public Calculator() {

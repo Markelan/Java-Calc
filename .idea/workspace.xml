@@ -4,48 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94fec89a-38fc-48eb-858c-2da0ee3aee3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ops/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ops/Divide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ops/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ops/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ops/Subtract.java" afterDir="false" />
+    <list default="true" id="94fec89a-38fc-48eb-858c-2da0ee3aee3d" name="Changes" comment="operators added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java Calculator/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="7cb6fcb8-66ce-46f3-8402-d537d13c169e" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -74,22 +37,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;210&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;295&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marik/IdeaProjects/Java Calc&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "210",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "295",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Marik/IdeaProjects/Java Calc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Calculator">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator" />
@@ -124,6 +88,14 @@
       <workItem from="1676034981665" duration="1177000" />
       <workItem from="1676037012742" duration="28000" />
     </task>
+    <task id="LOCAL-00001" summary="operators added">
+      <created>1676065408314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676065408314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +111,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="operators added" />
+    <option name="LAST_COMMIT_MESSAGE" value="operators added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Calc$Calculator.ic" NAME="Calculator Coverage Results" MODIFIED="1676064968954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
