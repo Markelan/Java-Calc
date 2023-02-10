@@ -82,19 +82,17 @@ public class Calculator {
             txtDisplay.setText("");
         });
         button6.addActionListener(e -> {
-            String backspace;
 
             if (txtDisplay.getText().length() > 0) {
                 StringBuilder strB = new StringBuilder(txtDisplay.getText());
                 strB.deleteCharAt(txtDisplay.getText().length() - 1);
-                backspace = String.valueOf(strB);
-                txtDisplay.setText(backspace);
+                txtDisplay.setText(String.valueOf(strB));
             }
         });
         button5.addActionListener(e -> {
             b = Double.parseDouble(txtDisplay.getText());
-                result = op.getResult(a, b);
-                txtDisplay.setText(String.valueOf(result));
+            result = op.getResult(a, b);
+            txtDisplay.setText(String.valueOf(result));
         });
     }
 

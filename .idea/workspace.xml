@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94fec89a-38fc-48eb-858c-2da0ee3aee3d" name="Changes" comment="hzx">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="94fec89a-38fc-48eb-858c-2da0ee3aee3d" name="Changes" comment="pediki" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676066485847</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pediki">
+      <created>1676067225402</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676067225402</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="operators added" />
     <MESSAGE value="hzx" />
-    <option name="LAST_COMMIT_MESSAGE" value="hzx" />
+    <MESSAGE value="pediki" />
+    <option name="LAST_COMMIT_MESSAGE" value="pediki" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Calc$Calculator.ic" NAME="Calculator Coverage Results" MODIFIED="1676064968954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
