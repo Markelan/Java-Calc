@@ -44,7 +44,7 @@
           <text value="AC"/>
         </properties>
       </component>
-      <component id="22f44" class="javax.swing.JButton" binding="button6" default-binding="true">
+      <component id="22f44" class="javax.swing.JButton" binding="backspaceButton" default-binding="true">
         <constraints>
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <minimum-size width="60" height="60"/>
@@ -119,7 +119,7 @@
           <text value="00"/>
         </properties>
       </component>
-      <component id="e58ab" class="javax.swing.JButton" binding="button11" default-binding="true">
+      <component id="e58ab" class="javax.swing.JButton" binding="addButton" default-binding="true">
         <constraints>
           <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <minimum-size width="60" height="60"/>
@@ -134,7 +134,7 @@
           <text value="+"/>
         </properties>
       </component>
-      <component id="185f5" class="javax.swing.JButton" binding="button2" default-binding="true">
+      <component id="185f5" class="javax.swing.JButton" binding="subButton" default-binding="true">
         <constraints>
           <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <minimum-size width="60" height="60"/>
@@ -149,7 +149,7 @@
           <text value="-"/>
         </properties>
       </component>
-      <component id="532b5" class="javax.swing.JButton" binding="button3" default-binding="true">
+      <component id="532b5" class="javax.swing.JButton" binding="multiButton" default-binding="true">
         <constraints>
           <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <minimum-size width="60" height="60"/>
@@ -164,7 +164,7 @@
           <text value="*"/>
         </properties>
       </component>
-      <component id="23f8c" class="javax.swing.JButton" binding="button4" default-binding="true">
+      <component id="23f8c" class="javax.swing.JButton" binding="divButton" default-binding="true">
         <constraints>
           <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <minimum-size width="60" height="60"/>
@@ -179,7 +179,7 @@
           <text value="≑"/>
         </properties>
       </component>
-      <component id="a254b" class="javax.swing.JButton" binding="button5" default-binding="true">
+      <component id="a254b" class="javax.swing.JButton" binding="finalButton" default-binding="true">
         <constraints>
           <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <minimum-size width="60" height="60"/>
@@ -254,7 +254,7 @@
           <text value="0"/>
         </properties>
       </component>
-      <component id="a34ba" class="javax.swing.JButton" binding="button16" default-binding="true">
+      <component id="a34ba" class="javax.swing.JButton" binding="pmButton" default-binding="true">
         <constraints>
           <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <minimum-size width="60" height="60"/>
@@ -314,7 +314,7 @@
           <text value="3"/>
         </properties>
       </component>
-      <component id="470cc" class="javax.swing.JButton" binding="button20" default-binding="true">
+      <component id="470cc" class="javax.swing.JButton" binding="dotButton" default-binding="true">
         <constraints>
           <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
             <minimum-size width="60" height="60"/>
